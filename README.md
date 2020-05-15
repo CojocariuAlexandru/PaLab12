@@ -2,6 +2,8 @@
 
 # PA Laborator 12
 
+[![GitHub Release](https://img.shields.io/github/release/tterb/PlayMusic.svg?style=flat)]()  
+
 ## Students
 
   - Cojocariu Alexandru, II A2
