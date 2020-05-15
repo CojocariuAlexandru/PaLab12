@@ -4,6 +4,10 @@ import com.sun.xml.internal.messaging.saaj.soap.JpegDataContentHandler;
 import javax.swing.*;
 import java.awt.*;
 
+/**
+*   Defines components attributes and add them on the main screen
+*/
+
 public class GeneralOptionsPanel{
     private int swingComponentX;
     private int swingComponentY;
@@ -64,6 +68,9 @@ public class GeneralOptionsPanel{
 
     }
 
+    /**
+    *   Sets the bounds for buttons with the variables defined above and puts them on screen
+    */
     public void drawOnScreen(JFrame mainFrame){
         swingComponentForm.setBounds(swingComponentX, swingComponentY, swingComponentWidth, swingComponentHeigth);
         swingComponentNumber.setBounds(swingComponentFormX, swingComponentFormY, swingComponentFormWidth, swingComponentFormHeigth);
