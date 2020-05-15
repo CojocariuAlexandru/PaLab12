@@ -13,6 +13,9 @@ public class ApplicationGUI {
     private static Canvas drawingCanvas;
     private static SideOptions sideOptions;
 
+    /**
+    *   Define components and call the methods below
+    */
     public ApplicationGUI() {
         setUpApplicationFrame();
         generalOptionsPanel = new GeneralOptionsPanel();
@@ -23,6 +26,9 @@ public class ApplicationGUI {
         addComponentsToFrame();
     }
 
+    /**
+    *   Start the application by making functional the mouse listener
+    */
     public void startApplication() {
         MouseListener mouseListener = new MouseListener() {
             @Override
@@ -82,6 +88,9 @@ public class ApplicationGUI {
         drawingCanvas.addMouseListener(mouseListener);
     }
 
+    /**
+    *   Set up general settings about the application window
+    */
     private static void setUpApplicationFrame() {
         applicationFrame = new JFrame();
         applicationFrame.setResizable(false);
@@ -92,6 +101,9 @@ public class ApplicationGUI {
         applicationFrame.setVisible(true);
     }
 
+    /**
+    *   Add to the screen all the components
+    */
     private static void addComponentsToFrame() {
         titleDisplayPanel.drawOnScreen(applicationFrame);
         generalOptionsPanel.drawOnScreen(applicationFrame);
