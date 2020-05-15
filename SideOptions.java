@@ -8,6 +8,10 @@ import java.awt.event.MouseListener;
 import java.awt.event.MouseWheelEvent;
 import java.awt.event.WindowEvent;
 
+/**
+*   Defines side options buttons and puts mouse listener on thems which call its functionalities
+*/
+
 public class SideOptions {
     private int saveButtonX;
     private int saveButtonY;
