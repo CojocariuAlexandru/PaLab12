@@ -7,6 +7,10 @@ import java.io.BufferedOutputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 
+/**
+*   Call the XML encoder for the optional task
+*/
+
 public class DrawingSaverLoader {
     public void saveDrawing(){
         try{
