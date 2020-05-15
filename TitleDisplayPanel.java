@@ -2,6 +2,10 @@ package com.company;
 import javax.swing.*;
 import java.awt.*;
 
+/**
+*   Display the title of the app on the screen
+*/
+
 public class TitleDisplayPanel{
     private int actionAreaX;
     private int actionAreaY;
